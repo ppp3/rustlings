@@ -12,7 +12,20 @@
 
 // Put your function here!
 // fn calculate_apple_price {
+fn calculate_apple_price(i:u32)->u32
+{
+    //return 0;
 
+    if (i<=40)
+    {
+        i*2
+    }
+    else
+    {
+        i
+    }
+
+}
 // Don't modify this function!
 #[test]
 fn verify_test() {
