@@ -6,12 +6,17 @@
 // This test has a problem with it -- make the test compile! Make the test
 // pass! Make the test fail! Execute `rustlings hint tests1` for hints :)
 
-// I AM NOT DONE
-
+fn sum(a:i32, b:i32)->i32
+{
+    a+b
+}
 #[cfg(test)]
 mod tests {
+    use super::*;
+
     #[test]
-    fn you_can_assert() {
-        assert!();
+    fn you_can_assert()
+    {
+        assert_eq!(4,sum(2,2));
     }
 }
